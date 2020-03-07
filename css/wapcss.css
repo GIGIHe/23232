@@ -1,11 +1,14 @@
+.zg_address_con,.onlines,.fxdrws{
+    display: none;
+}
 header {
-    width: 7.5rem;
+    width:100%;
     height: .8rem;
     background: #f2f2f2;
 }
 header a {
     font:700 .2rem/.4rem "microsoft yahei";
-    color:#fff;
+    color:#e60012;
 }
 header a img {
     float: left;
@@ -13,17 +16,16 @@ header a img {
 header .logo {
     display: block;
     float: left;
-    width: 2rem;
+    width: 50%;
     height: .36rem;
     margin-top: .2rem;
-    margin-left: .3rem;
 }
 header .zgfb {
     display: block;
     float: right;
-    width: 1.15rem;
+    width: 50%;
     height: .36rem;
-    margin-right: .3rem;
+    /* margin-right: .3rem; */
     margin-top: .2rem;
 }
 header .logo img {
@@ -58,14 +60,14 @@ header.fixed {
 .foot{
     position: fixed;
     bottom:0;
-    width:7.5rem;
+    width:100%;
     height:.9rem;
     overflow: hidden;
     z-index:999;
 }
 .foot a{
     float: left;
-    width:3.75rem;
+    width:50%;
     font:.26rem/0.9rem 'Microsoft YaHei';
     text-align: center;
 }
@@ -86,4 +88,14 @@ header.fixed {
     width: .3rem;
     height: .38rem;
     margin-right: .1rem;
+}
+.zg_address{
+    width: 100%;
+    background:#444;
+    padding-bottom: .4rem
+}
+.zg_address iframe{
+    width: 80%;
+    display: block;
+    margin: auto;
 }
