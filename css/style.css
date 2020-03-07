@@ -398,10 +398,11 @@ ul{list-style: none;}
 .course table th {
 	background: #67914a;
 	color: #fff;
-	font-size: 26px;
+	font-size: 22px;
 	border-right:1px #ccc solid;
 	border-bottom:1px #ccc solid;
 }
+
 .course table tr:last-child td {
 	border-right: 1px solid #999
 }
@@ -415,7 +416,7 @@ ul{list-style: none;}
 	border-bottom: 1px solid #999;
 	background: #fff;
 	color: #666;
-	font-size: 26px;
+	font-size: 16px;
 	padding: 5px;
     line-height: 28px;
 }

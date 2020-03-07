@@ -104,3 +104,26 @@ header.fixed {
     display: block;
     margin: auto;
 }
+.course table th {
+	background: #67914a;
+	color: #fff;
+	font-size: 26px;
+	border-right:1px #ccc solid;
+	border-bottom:1px #ccc solid;
+}
+
+.course table td {
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #999;
+	background: #fff;
+	color: #666;
+	font-size: 26px;
+	padding: 5px;
+    line-height: 28px;
+}
+.course p{
+	color:#67914a;
+	font-size:20px;
+	line-height:20px;
+	margin-bottom: 10px;
+}
