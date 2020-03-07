@@ -81,6 +81,12 @@ body {
     clear: both;
     visibility: hidden;
 }
+.zg_address_con,.onlines,.fxdrws,.copyright{
+    display: block;
+}
+.foot,.navbar,.zg_address{
+    display: none;
+}
 .bann {
     width: 100%;
     padding-top: 121px;

@@ -1,5 +1,8 @@
-.zg_address_con,.onlines,.fxdrws{
+.zg_address_con,.onlines,.fxdrws,.copyright{
     display: none;
+}
+.foot,.navbar,.zg_address{
+    display: block;
 }
 header {
     width:100%;
@@ -91,8 +94,10 @@ header.fixed {
 }
 .zg_address{
     width: 100%;
-    background:#444;
-    padding-bottom: .4rem
+    min-width: 1200px;
+    background: #d1f1ed;
+    padding-bottom: .4rem;
+    margin: auto;
 }
 .zg_address iframe{
     width: 80%;
