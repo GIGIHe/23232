@@ -390,7 +390,7 @@ ul{list-style: none;}
 }
 .course table {
 	border: 1px solid #fff;
-	width: 1000px;
+	width: 1200px;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -398,7 +398,7 @@ ul{list-style: none;}
 .course table th {
 	background: #67914a;
 	color: #fff;
-	font-size: 22px;
+	font-size: 26px;
 	border-right:1px #ccc solid;
 	border-bottom:1px #ccc solid;
 }
@@ -416,7 +416,7 @@ ul{list-style: none;}
 	border-bottom: 1px solid #999;
 	background: #fff;
 	color: #666;
-	font-size: 24px;
+	font-size: 26px;
 	padding: 5px;
     line-height: 28px;
 }
