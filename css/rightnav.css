@@ -1,0 +1,222 @@
+.sd_left_address {
+	width: 70px;
+	position: fixed;
+	right: 10px;
+	top: 10%;
+	z-index: 9999;
+}
+
+.sd_left_address.active {
+	display: none;
+}
+
+.sd_left_address_item {
+	width: 68px;
+	margin-bottom: 4px;
+	text-align: center;
+	font: 14px/77 'Microsoft Yahei';
+	background: #fff;
+	position: relative;
+	box-shadow: 0 0 10px #ccc;
+	padding: 1px;
+	height: 77px;
+	position: relative;
+	z-index: 5;
+	border-radius: 2px;
+}
+
+.sd_left_address_item.hover {
+	z-index: 4;
+	box-shadow: 0 0 10px #ccc;
+	background: #e60012;
+	border-radius: 3px;
+}
+
+.sd_left_address_item a.address_item_btn {
+	display: block;
+	width: 66px;
+	padding-top: 49px;
+	padding-bottom: 9px;
+	line-height: 19px;
+	font-size: 14px;
+	text-align: center;
+	color: #909aa0;
+	height: 19px;
+	position: relative;
+	z-index: 111;
+	transition: all 0.3s;
+}
+
+.sd_left_address_item.item1 a.address_item_btn {
+	background: url(../images/address_icons.png) no-repeat -194px -176px;
+}
+
+.sd_left_address_item.item1.hover a.address_item_btn {
+	background: url(../images/address_icons.png) no-repeat -194px -248px #e60012;
+	color: #fff;
+}
+
+.sd_left_address_item.item2 a.address_item_btn {
+	background: url(../images/address_icons.png) no-repeat -114px -331px;
+}
+
+.sd_left_address_item.item2.hover a.address_item_btn {
+	background: url(../images/address_icons.png) no-repeat -114px -404px #e60012;
+	color: #fff;
+}
+
+.sd_left_address_item.item3 a.address_item_btn {
+	background: url(../images/address_icons.png) no-repeat -114px -176px;
+}
+
+.sd_left_address_item.item3.hover a.address_item_btn {
+	background: url(../images/address_icons.png) no-repeat -114px -248px #e60012;
+	color: #fff;
+}
+
+.sd_left_address_item.item4 a.address_item_btn {
+	background: url(../images/address_icons.png) no-repeat -256px -176px;
+}
+
+.sd_left_address_item.item4.hover a.address_item_btn {
+	background: url(../images/address_icons.png) no-repeat -256px -248px #e60012;
+	color: #fff;
+}
+
+.sd_left_address_item.item5 a.address_item_btn {
+	background: url(../images/address_icons.png) no-repeat -317px -176px;
+}
+
+.sd_left_address_item.item5.hover a.address_item_btn {
+	background: url(../images/address_icons.png) no-repeat -317px -248px #e60012;
+	color: #fff;
+}
+
+.address_item_code_wrap {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	left: -179px;
+	top: -42px;
+	z-index: 99;
+	display: none;
+	border: 1px solid #e60012;
+	border-radius: 10px;
+	padding: 5px;
+	background: #fff;
+}
+
+.address_item_code_wrap img.address_code_img {
+	width: 150px;
+	height: 150px;
+	border-radius: 20px;
+	display: block;
+	margin: 0 auto;
+}
+
+.address_item_code_wrap img.address_code_jt {
+	width: 11px;
+	height: 17px;
+	display: block;
+	position: absolute;
+	right: -11px;
+	top: 74px;
+}
+
+.sd_left_address_item .item_left_box {
+	width: 116px !important;
+	height: 390px !important;
+	background: #fff;
+	border: 1px solid #e60012;
+	left: -118px !important;
+	padding-right: 0 !important;
+	top: 0 !important;
+	position: absolute;
+	padding: 10px 0;
+	display: none;
+	border-radius: 5px 0 0 5px;
+}
+
+.sd_left_address_item .item_left_box.item_left_box1 {
+	width: 185px !important;
+	height: 505px !important;
+	box-shadow: 0 0 5px #fff;
+	left: -190px !important;
+	top: -83px !important;
+	position: absolute;
+	padding: 10px 0;
+}
+
+.sd_left_address_item .item_left_box.item_left_box1 span {
+	display: inline-block;
+	width: 5px;
+}
+
+.sd_left_address_item .item_left_box a {
+	display: block;
+	font: 14px/32px "Microsfot Yahei";
+	color: #333333;
+	padding: 0;
+	padding-left: 10px;
+	background: none;
+	text-align: left;
+	overflow: hidden;
+	height: 23px;
+}
+
+.sd_left_address_item .item_left_box.item_left_box1 a i {
+	background: url(../images/icon22.png) no-repeat center;
+}
+
+.sd_left_address_item .item_left_box a i {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	width: 14px;
+	height: 13px;
+	padding-left: 8px;
+	margin-right: 3px;
+	background: url(../images/icon_1.png) no-repeat center;
+}
+
+.sd_left_address_item .item_left_box a:hover {
+	color: #e60012;
+	font-weight: bold;
+}
+
+.sd_left_address_item .item_left_box a:hover i {
+	background: url(../images/icon_1.png) no-repeat center;
+}
+
+.sd_left_address_item .item_left_box.item_left_box1 a:hover i {
+	background: url(../images/icon22.png) no-repeat center;
+}
+
+.sd_left_address_close {
+	width: 20px;
+	height: 20px;
+	background: url(../images/address_icons.png) no-repeat 0 -216px;
+	display: block;
+	position: absolute;
+	top: -22px;
+	right: 2px;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+
+.sd_left_address_close:hover {
+	background: url(../images/address_icons.png) no-repeat 0 -265px;
+	transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+}
+@media all and  (max-width: 1000px) {
+	.sd_left_address{
+		display: none;
+	}
+	.lead{
+		display: none;
+	}
+}
